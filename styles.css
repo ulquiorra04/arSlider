@@ -1,0 +1,41 @@
+.ar_slider {
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ar_slider_one {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: block;
+}
+
+.ar_slider_two {
+    width: 50%;
+}
+
+.ar_to_right {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 20px);
+    cursor: pointer;
+}
+
+.ar_to_left {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 20px);
+    cursor: pointer;
+}
